@@ -284,6 +284,18 @@ input, select, textarea {
 
 /* Row */
 
+	.languages{
+		height:125px;
+		width:125px;
+	}
+	.row-lang{
+		justify-content:center;
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
