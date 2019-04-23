@@ -6,6 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.buttons-container{
+	display: flex;
+	flex-direction:column;
+}
+
 #avatar{
 	display: block;
 	width: 100%;
@@ -2402,7 +2407,7 @@ input, select, textarea {
 
 				.box.style2 {
 					max-width: 32em;
-					height:400px; 
+					height:350px; 
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
