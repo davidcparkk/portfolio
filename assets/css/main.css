@@ -7,6 +7,22 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.project-images{
+	height: 200px;
+	display: block;
+			width: 100%;
+}
+
+.wip{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+		height: 170px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -365,6 +381,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.3333333333%;
+			height:500px;
 		}
 
 		.row > .off-4 {
@@ -1642,6 +1659,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			
 		}
 
 		.image.fit {
@@ -1946,6 +1964,7 @@ input, select, textarea {
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
+			
 			width: auto;
 		}
 
@@ -2379,6 +2398,7 @@ input, select, textarea {
 
 				.box.style2 {
 					max-width: 32em;
+					height:500px; 
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
